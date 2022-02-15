@@ -1,0 +1,8 @@
+local GUI = script.parent
+local Text = script.parent
+
+if Gmae.players.playeradded == Admin then
+  GUI.enabled = true
+else
+  GUI.enabled = false
+end)
